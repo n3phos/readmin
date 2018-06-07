@@ -1,0 +1,28 @@
+{
+    "version": "0.0.0",
+    "summary": "An attempt to replace the SwissHotels.com/amdin",
+    "repository": "https://github.com/user/project.git",
+    "license": "MIT",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [],
+    "dependencies": {
+        "cuducos/elm-format-number": "4.0.1 <= v < 5.0.0",
+        "elm-community/string-extra": "1.3.3 <= v < 2.0.0",
+        "elm-lang/core": "5.1.1 <= v < 6.0.0",
+        "elm-lang/html": "2.0.0 <= v < 3.0.0",
+        "elm-lang/http": "1.0.0 <= v < 2.0.0",
+        "elm-lang/keyboard": "1.0.1 <= v < 2.0.0",
+        "elm-lang/navigation": "2.1.0 <= v < 3.0.0",
+        "evancz/url-parser": "2.0.1 <= v < 3.0.0",
+        "krisajenkins/remotedata": "4.3.0 <= v < 5.0.0",
+        "rluiten/elm-date-extra": "8.6.0 <= v < 9.0.0",
+        "terezka/elm-plot": "5.1.0 <= v < 6.0.0",
+        "kallaspriit/elm-basic-auth": "1.0.0 <= v < 1.0.1",
+        "rundis/elm-bootstrap": "2.0.9 <= v < 3.0.1",
+        "krisajenkins/elm-exts": "27.3.0 <= v < 27.4.0",
+        "geppettodivacin/elm-couchdb": "1.0.9 <= v <= 2.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}

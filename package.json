@@ -1,0 +1,34 @@
+{
+  "name": "stc-hotels-mys-readmin",
+  "version": "0.7.0",
+  "description": "An attempt to replace the SwissHotels.com/amdin",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --optimize-minimize",
+    "dev-build": "webpack",
+    "watch": "webpack -w",
+    "test": "elm-test",
+    "tdd": "elm-test -w",
+    "validate-elm-format": "elm-format --validate src/ src/Advertisements src/BookingStats tests/"
+  },
+  "keywords": [
+    "STC",
+    "hotels",
+    "booking",
+    "Switzerland",
+    "GUI",
+    "amdinistration"
+  ],
+  "author": "Ivan Krechetov <ikr@xiag.ch>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "elm-format": "^0.6.1-alpha",
+    "elm-test": "^0.18.3",
+    "elm-webpack-loader": "^4.3.1",
+    "file-loader": "^0.11.1",
+    "string-replace-loader": "^1.2.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.5.1"
+  }
+}

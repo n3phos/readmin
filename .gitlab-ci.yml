@@ -1,0 +1,30 @@
+stages:
+  - test
+  - package
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run validate-elm-format
+    - npm test
+
+webpack:
+  stage: test
+  script:
+    - npm install
+    - npm run dev-build
+  except:
+    - tags
+
+webpack-for-production:
+  stage: package
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - dist/app-v*.js
+      - dist/index.html
+  only:
+    - tags
